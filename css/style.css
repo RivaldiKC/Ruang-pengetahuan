@@ -1,0 +1,136 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+.header{
+	background-color: #F6085B ;
+	width: 100%;
+	z-index: 888;
+	position: fixed;
+	height: 40px; 
+}
+.container ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.container a{
+	padding: 7px 7px;
+	color: #ffff;
+	text-decoration: none;
+	border: 1px solid;
+}
+.container a:hover {
+	background-color: #FF001A;
+	text-decoration: underline;
+}
+.logo {
+	font-family: 'Dancing Script', cursive;
+	top: 5px;
+	right: 50px;
+	position: absolute;
+
+}
+.container{
+	padding: 10px 10px;
+	width: 90%;
+	margin-left: 80px;
+}
+.banner {
+	top: 38px;
+	height: 75vh;
+	background-image: url('../img/meja4.JPG');
+	background-position: 0 -180px;
+	background-size: cover; /*membuat gambar membesar memenuhi ruang tersedia*/
+	position: relative; /*ini adalah match parent*/
+}
+.banner:after {
+	content: '';
+	background-image: linear-gradient(to right, rgba(0, 5, 4, 1) 25%, rgba(255, 255, 255,0));
+	position: absolute; /*ini adalah wrap content*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.banner h2{
+	color: #ffff;
+	z-index: 1;
+	position: absolute;
+	margin-left:10%;
+	margin-top: 10%;
+}
+.banner p {
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 15%;
+	z-index: 1;
+	color: #ffff;
+}
+.banner ul li {
+	display: inline-block;
+	z-index: 1;
+}
+.banner a{
+	border: 1px solid;
+	padding: 10px 15px;
+	margin-left: 20px;
+	color: #ffff;
+	text-decoration: none;
+	z-index: 1;
+}
+.log {
+	position: absolute;
+	z-index: 1;
+	width: 50%;
+	margin-left: 10%;
+	margin-top: 22%;
+}
+.banner a:hover {
+	background-color: #FF001A;
+	text-decoration: underline;
+}
+.flex-container {
+	display: flex;
+	padding: 10% 5% 10%;
+}
+.flex-container-2 {
+	background-color: #ffff;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10px;
+	text-align: center;
+}
+.border-kanan{
+	border-right: solid rgba(246, 8, 91,0.4);
+}
+.flex-container-2 h4 {
+	font-size: 20px;
+	padding: 10px 0 5px;
+}
+.flex-container-2 a {
+	font-size: 15px;
+	color: #F6085B;
+	font-weight: bold;
+}
+.flex-container-2 p {
+	font-size: 15px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 0 5px;
+}
+.footer {
+	background-color: #ACB7B6;
+	padding: 10px 0 10px;
+}
+.footer p {
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	text-align: center;
+	font-weight: bold;
+
+}
